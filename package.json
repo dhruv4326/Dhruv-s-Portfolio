@@ -17,12 +17,9 @@
     "resend": "^4.0.1",
     "tailwind-merge": "^2.5.4"
   },
-  
-    "scripts": {
-      "dev": "next dev",
-      "build": "next build",
-      "start": "next start"
-    }
-   
-
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
 }
