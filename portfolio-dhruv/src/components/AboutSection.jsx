@@ -8,9 +8,9 @@ const TAB_DATA =[
         id:"Education",
         content:(
             <ul className='list-disc pl-4'>
-                <li>Currently Pursuing B.tech CSE from Chandigarh University, Mohali, Punjab </li>
-                <li> Passed Intermediate in 2020 from CBSE </li>
-                <li> Passed Matriculation in 2018 from CBSE </li>
+                <li>B.Tech in Computer Science and Engineering: Chandigarh University, 2021-2025 </li>
+                <li> Intermediate: CBSE-2020 </li>
+                <li> Matriculation: CBSE-2018 </li>
             </ul>
         )
     },
@@ -19,9 +19,9 @@ const TAB_DATA =[
         id:"Certifications",
         content:(
             <ul className='list-disc pl-4'>
-                   <li> Introduction to C++ from Coding Ninja</li>
-                <li>Data Structures and Algorithm from Coding Ninja</li>
-            </ul>
+                   <li> Introduction to C++ - Coding Ninjas</li>
+                <li>Data Structures and Algorithm - Coding Ninjas</li>
+        </ul>
         )
     },
 ];
@@ -36,7 +36,7 @@ const AboutSection = () => {
         }); 
     };
   return (
-    <section className='text-white'>
+    <section className='text-white' id='about'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         <Image
         alt="about-section"

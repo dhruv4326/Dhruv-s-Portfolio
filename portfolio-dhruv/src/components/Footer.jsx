@@ -19,7 +19,7 @@ const Footer = () => {
                 </Link>
             </span>
 
-            <p className='text-slate-600'>All rights reserved.</p>
+            <p className='text-slate-600'> &copy; 2024 Dhruv.</p>
         </div>
    </footer>
   )

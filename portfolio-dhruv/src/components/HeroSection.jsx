@@ -3,6 +3,8 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
+import { ArrowRightIcon } from '@heroicons/react/24/solid';
+import Link from 'next/link';
 
 
  
@@ -42,13 +44,22 @@ const HeroSection = () => {
        <p className='text-[#ADB7BE] text-lg lg:text-xl mb-6 '>I excel at crafting elegant digital experiences and I am proficient in various languages and technologies. </p>
 
         {/* buttons ofhero section */}
-        <div>
-        <button className='px-6 py-3 w-full sm:w-fit rounded-full  bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white mr-6'>Hire Me</button>
-        <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white  mt-3'>
+
+       <div className='flex flex-col md:flex-row md:items-center sm:flex-row sm:items-center sm:gap-6'>
+         <Link href='#contact'>
+          <button className='px-6 py-3 w-full sm:w-auto rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white mb-4 sm:mb-0 flex items-center justify-center'>
+            Let&apos;s Connect
+            <span><ArrowRightIcon className='h-4 w-4 ml-2' /></span>
+          </button>
+          </Link>
+
+        <Link href='https://drive.google.com/file/d/1f_y_1jFakocQbV2S-BRV9e_z74R43HN6/view?usp=sharing'>
+          <button className='px-1 py-1 w-full sm:w-auto rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white '>
             <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
-        </button>
-       </div>
-       </motion.div>
+          </button>
+          </Link>
+        </div>
+        </motion.div>
 
        {/* images of hero section */}
        <motion.div

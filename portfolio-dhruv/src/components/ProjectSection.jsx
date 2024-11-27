@@ -10,8 +10,8 @@ const projectsData = [
     description: "A Portfolio Website based on Nextjs, Tailwind Css and Javascript.",
     Image: "/images/portfolioweb.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/dhruv4326/Dhruv-s-Portfolio",
+    previewUrl: "https://dhruv-s-portfolio-j3dh.vercel.app/",
   },
   {
     id: 2,
@@ -19,8 +19,8 @@ const projectsData = [
     description: "Clone of Front-end of Razorpay based on Html, Tailwind Css and Javascript. ",
     Image: "/images/Razorpay.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/dhruv4326/Razorpay-Clone",
+    previewUrl: "https://razorpay-clone-9uzj.vercel.app/",
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ const ProjectSection = () => {
   };
 
   return (
-    <div ref={ref}>
+    <div ref={ref} id="Projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
