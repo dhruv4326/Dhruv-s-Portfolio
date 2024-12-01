@@ -8,12 +8,10 @@ import Link from "next/link";
 
 
 
-
-
 const Technologies = () => {
   return (
     <div className="pb-16 ">
-    <h2 className=" mb-16 lg:mb-20 text-center text-4xl font-bold">Techologies I use</h2>
+    <h2 className=" mb-16 lg:mb-20 text-center text-4xl font-bold">Technical Proficiencies</h2>
     <div className="flex flex-wrap items-center justify-center gap-4 ">
       {/* React icon */}
       <Link href="https://react.dev/">

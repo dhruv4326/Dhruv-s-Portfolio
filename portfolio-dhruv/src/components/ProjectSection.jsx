@@ -20,7 +20,7 @@ const projectsData = [
     Image: "/images/Razorpay.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/dhruv4326/Razorpay-Clone",
-    previewUrl: "https://razorpay-clone-9uzj.vercel.app/",
+    previewUrl: "",
   },
   {
     id: 3,
