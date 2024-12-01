@@ -18,6 +18,7 @@ export default function Home() {
        <div className="container mx-auto px-12 py-4">
         <HeroSection />
         <AboutSection />
+        
        </div>   
        <div className="container mx-auto px-12 py-4"> <Technologies /> </div>
        <div className="container mx-auto px-12 py-4"> <ProjectSection /> </div>
