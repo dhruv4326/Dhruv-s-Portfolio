@@ -48,7 +48,8 @@ const AboutSection = () => {
             <h2 className='text-4xl font-bold text-white mb-4 '>About Me</h2>
             <p className='text-base lg:tet-lg'>  I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, Reactjs, Node.js, ExpressJs, MYSQL, HTML and Tailwind CSS. I am a quick learner and I am always
+            working with JavaScript, Reactjs, Node.js, ExpressJs, MYSQL, MongoDB, HTML and Tailwind CSS. Beyond Web Development, I have a strong foundation in Data Structures and Algorithms, enabling me to write efficient, optimized code and solve complex problems effectively.
+            I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications.
             </p>
