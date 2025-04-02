@@ -51,28 +51,28 @@ const Technologies = () => {
 
          {/* MySQL Icon */}
       <Link href="https://www.mysql.com/">
-      <div className="p-4 animate-floatUp delay-6000">
+      <div className="p-4 animate-floatDown delay-6000">
         <SiMysql className="lg:text-7xl text-6xl text-cyan-400" />
       </div>
       </Link>
   
       {/* Java icon */}
       <Link href="https://www.java.com/en/">
-      <div className="p-4 animate-floatDown delay-7000">
+      <div className="p-4 animate-floatUp delay-7000">
         <FaJava className="lg:text-7xl text-6xl text-red-600" />
       </div>
       </Link>
   
       {/* Tailwind CSS icon */}
       <Link href="https://tailwindcss.com/">
-      <div className="p-4 animate-floatUp delay-8000">
+      <div className="p-4 animate-floatDown delay-8000">
         <SiTailwindcss className="lg:text-7xl text-6xl text-blue-500" />
       </div>
       </Link>
   
       {/* C++ icon */}
       <Link href="https://isocpp.org/">
-      <div className="p-4 animate-floatDown delay-9000">
+      <div className="p-4 animate-floatUp delay-9000">
         <SiCplusplus className="lg:text-7xl text-6xl text-blue-400" />
       </div>
       </Link>
