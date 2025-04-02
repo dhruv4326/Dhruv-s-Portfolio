@@ -2,6 +2,7 @@ import {RiReactjsLine} from "react-icons/ri"
 import {TbBrandNextjs} from "react-icons/tb"
 import {SiMongodb} from "react-icons/si"
 import { FaNodeJs } from 'react-icons/fa';
+import { SiMysql } from "react-icons/si"; 
 import { FaReact, FaJava, FaCss3Alt, FaJsSquare } from 'react-icons/fa'; // React, Java, CSS, JS
 import { SiTailwindcss, SiCplusplus } from 'react-icons/si'; // Tailwind, C++
 import Link from "next/link";
@@ -21,7 +22,7 @@ const Technologies = () => {
       </Link>
   
       {/* Next.js icon */}
-      <Link href="https://nextjs.org/">
+      <Link href="https://nextjs.org">
       <div className="p-4 animate-floatDown delay-2000">
         <TbBrandNextjs className="lg:text-7xl text-6xl" />
       </div>
@@ -45,6 +46,13 @@ const Technologies = () => {
       <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
       <div className="p-4 animate-floatUp delay-5000">
         <FaJsSquare className="lg:text-7xl text-6xl text-yellow-400" />
+      </div>
+      </Link>
+
+         {/* MySQL Icon */}
+      <Link href="https://www.mysql.com/">
+      <div className="p-4 animate-floatUp delay-1000">
+        <SiMysql className="lg:text-7xl text-6xl text-cyan-400" />
       </div>
       </Link>
   
